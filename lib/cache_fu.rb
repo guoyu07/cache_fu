@@ -36,3 +36,4 @@ module ActsAsCached
     end
   end
 end
+Object.send :include, ActsAsCached::Mixin
